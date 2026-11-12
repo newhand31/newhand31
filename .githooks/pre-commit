@@ -1,0 +1,5 @@
+#!/bin/sh
+# Leak gate (copied from public-brain). Refuses the commit when any staged text file matches a leak rule.
+# Fail closed: a missing private rules file also refuses (exit 2). See CLAUDE.md > 閘門.
+# First clone: git config core.hooksPath .githooks
+python scripts/leak-check.py

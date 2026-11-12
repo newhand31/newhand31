@@ -1,0 +1,11 @@
+{
+  "_comment": "Generic, non-identifying patterns only. This file is public. Anything that names a person, employer, account, status or amount belongs in the private rules file (see CLAUDE.md > 閘門), never here. Patterns are Python re, matched case-insensitively, one line at a time.",
+  "rules": [
+    { "name": "email-address", "pattern": "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+[.][A-Za-z]{2,}" },
+    { "name": "tw-mobile-phone", "pattern": "(^|[^0-9])09[0-9]{2}[- ]?[0-9]{3}[- ]?[0-9]{3}($|[^0-9])" },
+    { "name": "tw-national-id", "pattern": "(^|[^A-Za-z0-9])[A-Z][12][0-9]{8}($|[^0-9])" },
+    { "name": "windows-user-path", "pattern": "[A-Za-z]:.Users.[A-Za-z0-9._-]+" },
+    { "name": "credential-assignment", "pattern": "(api[_-]?key|secret|token|password)[^A-Za-z0-9]{0,3}[=:][ ]*[A-Za-z0-9_-]{16,}" },
+    { "name": "token-like-string", "pattern": "(ghp_|gho_|github_pat_|sk-|xoxb-|AKIA)[A-Za-z0-9_-]{16,}" }
+  ]
+}
