@@ -8,9 +8,9 @@ Backend engineer (.NET · Go). I break big problems into small, verifiable slice
 | 專案 | 一句話 | 看點 |
 |---|---|---|
 | [go-shop](https://github.com/newhand31/go-shop) | 用 Go 寫一個正式風格的電商後端，配 YouTube 教學系列 | 給 C#/Java 工程師的 Go 遷移路線 |
-| [CountMeIn](https://countmein-tw.web.app/) | 陌生人聚餐配對服務，已上線 | .NET Clean Architecture、Azure 部署、BDD 驗收 |
-| [claude-coord](https://github.com/newhand31/claude-coord)（整理中） | 一人帶多個 Claude Code session 的協調工具：認領、車道、一筆一檔的帳本 | 多 AI 並行時怎麼不互踩 |
-| [brain-search](https://github.com/newhand31/brain-search) · [public-brain](https://github.com/newhand31/public-brain) | 查詢 → 帶分數的知識切塊，形狀仿 Tavily 的 RAG API | 評估集、檢索指標、洩漏閘門 |
+| CountMeIn | 陌生人聚餐配對服務，已上線 | .NET Clean Architecture、Azure 部署、BDD 驗收 |
+| claude-coord（整理中） | 一人帶多個 Claude Code session 的協調工具：認領、車道、一筆一檔的帳本 | 多 AI 並行時怎麼不互踩 |
+| brain-search（整理中） | 查詢 → 帶分數的知識切塊，形狀仿 Tavily 的 RAG API | 評估集、檢索指標、洩漏閘門 |
 
 #### 🧭 我在意的事 / How I work
 
